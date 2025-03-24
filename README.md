@@ -29,8 +29,33 @@ Kali هو مشروع مبني باستخدام React Native يهدف إلى تو
 
 3. تشغيل المشروع:
     ```sh
-    npm start
+    npx expo start
     ```
 
 ## بنية المشروع
 
+
+
+
+## كيفية المساهمة
+
+1. استنساخ المشروع إلى حسابك الشخصي:
+    ```sh
+    git clone https://github.com/Without-Guidance-wg/Kali.git
+    ```
+2. إنشاء فرع جديد لإجراء التعديلات:
+    ```sh
+    git checkout -b feature/your-feature-name
+    ```
+3. إجراء التعديلات المطلوبة.
+4. رفع التعديلات إلى المستودع:
+    ```sh
+    git add .
+    git commit -m "Add your commit message"
+    git push origin feature/your-feature-name
+    ```
+5. إنشاء طلب سحب (Pull Request) لمراجعة التعديلات ودمجها.
+
+## رخصة الاستخدام
+
+هذا المشروع مرخص تحت رخصة MIT. لمزيد من المعلومات، راجع ملف [LICENSE](LICENSE).
